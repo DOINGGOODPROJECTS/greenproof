@@ -14,7 +14,7 @@ export default function Home() {
           </div>
           <div className="flex gap-4">
             <Link href="/login">
-              <Button variant="outline" className="text-white border-white hover:bg-forest-600">
+              <Button variant="outline" className="text-white border-white bg-forest-600 hover:bg-forest-600">
                 Connexion
               </Button>
             </Link>
@@ -39,7 +39,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/explorer">
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-forest-600">
+                <Button size="lg" variant="outline" className="text-white border-white bg-forest-600 hover:bg-forest-600">
                   Explorer les projets
                 </Button>
               </Link>
@@ -153,7 +153,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="bg-gray-800 text-white py-12">
+      <footer className="bg-forest-600 text-white py-6">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -197,7 +197,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+          <div className="border-t border-gray-700 mt-4 pt-4 text-center text-white-300">
             <p>&copy; {new Date().getFullYear()} GreenProof. Tous droits réservés.</p>
           </div>
         </div>
