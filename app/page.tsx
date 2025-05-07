@@ -181,11 +181,11 @@ export default function Home() {
                     Inscription
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/about" className="text-gray-300 hover:text-white">
                     À propos
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div>
@@ -193,7 +193,7 @@ export default function Home() {
               <p className="text-gray-300">
                 info@greenproof.com
                 <br />
-                +33 1 23 45 67 89
+                +225 07 79 73 34 65
               </p>
             </div>
           </div>
